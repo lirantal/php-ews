@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ArrayOfBaseItemIdsType type
  */
-class EWSType_ArrayOfBaseItemIdsType extends EWSType
+class ArrayOfBaseItemIdsType extends EWSType
 {
     /**
      * ItemId property

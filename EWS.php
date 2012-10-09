@@ -4,11 +4,16 @@
  *
  * @package php-ews
  */
+namespace EWS;
+
+use EWS\Exception\EWSException;
+use EWS\NTLMSoapClient\Exchange;
+
 
 /**
  * Base class of the Exchange Web Services application.
  */
-class ExchangeWebServices
+class EWS
 {
     /**
      * Microsoft Exchange 2007
@@ -23,20 +28,6 @@ class ExchangeWebServices
      * @var string
      */
     const VERSION_2007_SP1 = 'Exchange2007_SP1';
-
-    /**
-     * Microsoft Exchange 2007 SP2
-     *
-     * @var string
-     */
-    const VERSION_2007_SP2 = 'Exchange2007_SP2';
-
-    /**
-     * Microsoft Exchange 2007 SP3
-     *
-     * @var string
-     */
-    const VERSION_2007_SP3 = 'Exchange2007_SP3';
 
     /**
      * Microsoft Exchange 2010
@@ -99,20 +90,20 @@ class ExchangeWebServices
      *
      * @var string
      *
-     * @see ExchangeWebServices::VERSION_2007
-     * @see ExchangeWebServices::VERSION_2007_SP1
-     * @see ExchangeWebServices::VERSION_2010
-     * @see ExchangeWebServices::VERSION_2010_SP1
+     * @see EWS::VERSION_2007
+     * @see EWS::VERSION_2007_SP1
+     * @see EWS::VERSION_2010
+     * @see EWS::VERSION_2010_SP1
      */
     protected $version;
 
     /**
-     * Constructor for the ExchangeWebServices class
+     * Constructor for the EWS class
      *
      * @param string $server
      * @param string $username
      * @param string $password
-     * @param string $version one of the ExchangeWebServices::VERSION_* constants
+     * @param string $version one of the EWS::VERSION_* constants
      */
     public function __construct(
         $server = null,
@@ -696,7 +687,7 @@ class ExchangeWebServices
      */
     protected function initializeSoapClient()
     {
-        $this->soap = new NTLMSoapClient_Exchange(
+        $this->soap = new Exchange(
             dirname(__FILE__).'/wsdl/services.wsdl',
             array(
                 'user' => $this->username,
@@ -726,7 +717,7 @@ class ExchangeWebServices
         // If the soap call failed then we need to thow an exception.
         $code = $this->soap->getResponseCode();
         if ($code != 200) {
-            throw new EWS_Exception('SOAP client returned status of '.$code, $code);
+            throw new EWSException('SOAP client returned status of '.$code, $code);
         }
 
         return $response;

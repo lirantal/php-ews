@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the MailboxData type
  */
-class EWSType_MailboxData extends EWSType
+class MailboxData extends EWSType
 {
     /**
      * Email property

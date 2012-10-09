@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the EffectiveRightsType type
  */
-class EWSType_EffectiveRightsType extends EWSType
+class EffectiveRightsType extends EWSType
 {
     /**
      * CreateAssociated property

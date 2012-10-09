@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Types of deletion for items and folders
  */
-class EWSType_DisposalType extends EWSType
+class DisposalType extends EWSType
 {
     /**
      * Deletes the item irrevocably. Does not move the item to the Deleted Items
@@ -37,26 +39,9 @@ class EWSType_DisposalType extends EWSType
     const SOFT_DELETE = 'SoftDelete';
 
     /**
-     * Element value.
-     *
-     * @var string
-     */
-    public $_;
-
-    /**
      * Constructor
      */
     public function __construct()
     {
-    }
-
-    /**
-     * Returns the value of this object as a string.
-     *
-     * @return string
-     */
-    public function __toString()
-    {
-        return $this->_;
     }
 }

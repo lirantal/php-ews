@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ArrayOfDelegateUserType type
  */
-class EWSType_ArrayOfDelegateUserType extends EWSType
+class ArrayOfDelegateUserType extends EWSType
 {
     /**
      * DelegateUser property

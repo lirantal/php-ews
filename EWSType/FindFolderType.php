@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the FindFolderType type
  */
-class EWSType_FindFolderType extends EWSType
+class FindFolderType extends EWSType
 {
     /**
      * FolderShape property

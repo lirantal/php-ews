@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the PathToIndexedFieldType type
  */
-class EWSType_PathToIndexedFieldType extends EWSType
+class PathToIndexedFieldType extends EWSType
 {
     /**
      * FieldURI property

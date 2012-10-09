@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ConflictResultsType type
  */
-class EWSType_ConflictResultsType extends EWSType
+class ConflictResultsType extends EWSType
 {
     /**
      * Count property

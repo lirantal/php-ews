@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the SmartResponseBaseType type
  */
-class EWSType_SmartResponseBaseType extends EWSType
+class SmartResponseBaseType extends EWSType
 {
     /**
      * Subject property

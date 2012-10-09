@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ItemChangeType type
  */
-class EWSType_ItemChangeType extends EWSType
+class ItemChangeType extends EWSType
 {
     /**
      * ItemId property

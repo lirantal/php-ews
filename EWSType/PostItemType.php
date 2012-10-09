@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the PostItemType type
  */
-class EWSType_PostItemType extends EWSType
+class PostItemType extends EWSType
 {
     /**
      * ConversationIndex property

@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the DelegatePermissionsType type
  */
-class EWSType_DelegatePermissionsType extends EWSType
+class DelegatePermissionsType extends EWSType
 {
     /**
      * CalendarFolderPermissionLevel property

@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfFolderChangesType type
  */
-class EWSType_NonEmptyArrayOfFolderChangesType extends EWSType
+class NonEmptyArrayOfFolderChangesType extends EWSType
 {
     /**
      * FolderChange property

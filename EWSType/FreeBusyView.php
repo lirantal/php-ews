@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the FreeBusyView type
  */
-class EWSType_FreeBusyView extends EWSType
+class FreeBusyView extends EWSType
 {
     /**
      * FreeBusyViewType property

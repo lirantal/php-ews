@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfPropertyValuesType type
  */
-class EWSType_NonEmptyArrayOfPropertyValuesType extends EWSType
+class NonEmptyArrayOfPropertyValuesType extends EWSType
 {
     /**
      * Value property

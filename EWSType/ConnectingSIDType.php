@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ConnectingSIDType type
  */
-class EWSType_ConnectingSIDType extends EWSType
+class ConnectingSIDType extends EWSType
 {
     /**
      * PrincipalName property

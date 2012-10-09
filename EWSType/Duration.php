@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the Duration type
  */
-class EWSType_Duration extends EWSType
+class Duration extends EWSType
 {
     /**
      * StartTime property

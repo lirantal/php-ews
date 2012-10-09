@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Mapping types for Contacts
  */
-class EWSType_FileAsMappingType extends EWSType
+class FileAsMappingType extends EWSType
 {
     /**
      * File as mapping for "company"

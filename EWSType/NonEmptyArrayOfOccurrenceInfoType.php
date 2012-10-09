@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfOccurrenceInfoType type
  */
-class EWSType_NonEmptyArrayOfOccurrenceInfoType extends EWSType
+class NonEmptyArrayOfOccurrenceInfoType extends EWSType
 {
     /**
      * Occurrence property

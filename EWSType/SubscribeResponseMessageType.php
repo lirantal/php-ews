@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the SubscribeResponseMessageType type
  */
-class EWSType_SubscribeResponseMessageType extends EWSType
+class SubscribeResponseMessageType extends EWSType
 {
     /**
      * SubscriptionId property

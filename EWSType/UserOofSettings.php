@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the UserOofSettings type
  */
-class EWSType_UserOofSettings extends EWSType
+class UserOofSettings extends EWSType
 {
     /**
      * OofState property

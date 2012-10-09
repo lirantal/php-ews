@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Default shape names for response shapes
  */
-class EWSType_DefaultShapeNamesType extends EWSType
+class DefaultShapeNamesType extends EWSType
 {
     /**
      * All properties are retured in the response

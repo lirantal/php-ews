@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the EmailAddressType type
  */
-class EWSType_EmailAddressType extends EWSType
+class EmailAddressType extends EWSType
 {
     /**
      * Name property

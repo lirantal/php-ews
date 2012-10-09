@@ -1,43 +1,27 @@
 <?php
 /**
- * The Excludes element performs a bitwise mask of the specified property and a
- * supplied value.
+ * Definition of the ExcludesType type
  *
  * @package php-ews
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
- * Definition of the ExcludesType type.
+ * Definition of the ExcludesType type
  */
-class EWSType_ExcludesType extends EWSType
+class ExcludesType extends EWSType
 {
     /**
-     * Identifies frequently referenced properties by URI.
+     * Path property
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var EWSType_BasePathToElementType
      */
-    public $FieldURI;
+    public $Path;
 
     /**
-     * Identifies individual members of a dictionary.
-     *
-     * @var EWSType_PathToIndexedFieldType
-     */
-    public $IndexedFieldURI;
-
-    /**
-     * Identifies MAPI properties.
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
-
-    /**
-     * Represents a hexadecimal or decimal mask to be used during an Excludes
-     * restriction operation. If the bitmask represents a hexadecimal number, it
-     * must be prefixed by 0x or 0X. Otherwise, it will be considered a decimal
-     * number.
+     * Bitmask property
      *
      * @var EWSType_ExcludesValueType
      */
@@ -48,10 +32,17 @@ class EWSType_ExcludesType extends EWSType
      */
     public function __construct()
     {
-        $this->schema[] = array(
-            'name' => 'Bitmask',
-            'required' => false,
-            'type' => 'ExcludesValueType',
+        $this->schema = array(
+            array(
+                'name' => 'Path',
+                'required' => false,
+                'type' => 'BasePathToElementType',
+            ),
+            array(
+                'name' => 'Bitmask',
+                'required' => false,
+                'type' => 'ExcludesValueType',
+            ),
         );
     }
 }

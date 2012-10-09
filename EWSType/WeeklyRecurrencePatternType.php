@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the WeeklyRecurrencePatternType type
  */
-class EWSType_WeeklyRecurrencePatternType extends EWSType
+class WeeklyRecurrencePatternType extends EWSType
 {
     /**
      * DaysOfWeek property

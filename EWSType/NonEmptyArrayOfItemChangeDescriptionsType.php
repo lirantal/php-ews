@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfItemChangeDescriptionsType type
  */
-class EWSType_NonEmptyArrayOfItemChangeDescriptionsType extends EWSType
+class NonEmptyArrayOfItemChangeDescriptionsType extends EWSType
 {
     /**
      * AppendToItemField property

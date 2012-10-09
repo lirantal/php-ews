@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ConvertIdType type
  */
-class EWSType_ConvertIdType extends EWSType
+class ConvertIdType extends EWSType
 {
     /**
      * SourceIds property

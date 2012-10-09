@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the BasePagingType type
  */
-class EWSType_BasePagingType extends EWSType
+class BasePagingType extends EWSType
 {
     /**
      * MaxEntriesReturned property

@@ -5,10 +5,11 @@
  * @package php-ews
  * @subpackage Exception
  */
+namespace EWS\Exception;
 
 /**
  * Exception class for Exchange Web Services
  */
-class EWS_Exception extends Exception
+class EWSException extends \Exception
 {
 }

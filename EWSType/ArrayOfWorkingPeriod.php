@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ArrayOfWorkingPeriod type
  */
-class EWSType_ArrayOfWorkingPeriod extends EWSType
+class ArrayOfWorkingPeriod extends EWSType
 {
     /**
      * WorkingPeriod property

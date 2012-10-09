@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfPathsToElementType type
  */
-class EWSType_NonEmptyArrayOfPathsToElementType extends EWSType
+class NonEmptyArrayOfPathsToElementType extends EWSType
 {
     /**
      * Path property

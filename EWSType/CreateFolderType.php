@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the CreateFolderType type
  */
-class EWSType_CreateFolderType extends EWSType
+class CreateFolderType extends EWSType
 {
     /**
      * ParentFolderId property

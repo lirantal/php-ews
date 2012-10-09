@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the GetEventsResponseMessageType type
  */
-class EWSType_GetEventsResponseMessageType extends EWSType
+class GetEventsResponseMessageType extends EWSType
 {
     /**
      * Notification property

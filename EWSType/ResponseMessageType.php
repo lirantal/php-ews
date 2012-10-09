@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ResponseMessageType type
  */
-class EWSType_ResponseMessageType extends EWSType
+class ResponseMessageType extends EWSType
 {
     /**
      * MessageText property

@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the MeetingMessageType type
  */
-class EWSType_MeetingMessageType extends EWSType
+class MeetingMessageType extends EWSType
 {
     /**
      * AssociatedCalendarItemId property

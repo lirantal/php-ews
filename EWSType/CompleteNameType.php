@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the CompleteNameType type
  */
-class EWSType_CompleteNameType extends EWSType
+class CompleteNameType extends EWSType
 {
     /**
      * Title property

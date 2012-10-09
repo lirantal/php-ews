@@ -8,10 +8,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the IsLessThanType type.
  */
-class EWSType_IsLessThanType extends EWSType
+class IsLessThanType extends EWSType
 {
     /**
      * Identifies frequently referenced properties by URI.

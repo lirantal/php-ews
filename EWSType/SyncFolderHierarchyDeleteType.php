@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Definition of the SyncFolderHierarchyDeleteType type
@@ -6,10 +7,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the SyncFolderHierarchyDeleteType type
  */
-class EWSType_SyncFolderHierarchyDeleteType extends EWSType
+class SyncFolderHierarchyDeleteType extends EWSType
 {
     /**
      * FolderId property

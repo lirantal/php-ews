@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ReferenceItemResponseType type
  */
-class EWSType_ReferenceItemResponseType extends EWSType
+class ReferenceItemResponseType extends EWSType
 {
     /**
      * ReferenceItemId property

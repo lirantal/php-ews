@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the TimeChangeType type
  */
-class EWSType_TimeChangeType extends EWSType
+class TimeChangeType extends EWSType
 {
     /**
      * Offset property

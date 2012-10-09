@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the SendNotificationResultType type
  */
-class EWSType_SendNotificationResultType extends EWSType
+class SendNotificationResultType extends EWSType
 {
     /**
      * SubscriptionStatus property

@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the AbsoluteYearlyRecurrencePatternType type
  */
-class EWSType_AbsoluteYearlyRecurrencePatternType extends EWSType
+class AbsoluteYearlyRecurrencePatternType extends EWSType
 {
     /**
      * DayOfMonth property

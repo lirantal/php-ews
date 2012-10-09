@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the AlternatePublicFolderItemIdType type
  */
-class EWSType_AlternatePublicFolderItemIdType extends EWSType
+class AlternatePublicFolderItemIdType extends EWSType
 {
     /**
      * ItemId property

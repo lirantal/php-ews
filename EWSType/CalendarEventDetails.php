@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the CalendarEventDetails type
  */
-class EWSType_CalendarEventDetails extends EWSType
+class CalendarEventDetails extends EWSType
 {
     /**
      * ID property

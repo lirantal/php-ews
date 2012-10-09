@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the DeleteFolderType type
  */
-class EWSType_DeleteFolderType extends EWSType
+class DeleteFolderType extends EWSType
 {
     /**
      * FolderIds property

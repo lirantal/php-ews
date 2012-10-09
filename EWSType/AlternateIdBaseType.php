@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the AlternateIdBaseType type
  */
-class EWSType_AlternateIdBaseType extends EWSType
+class AlternateIdBaseType extends EWSType
 {
     /**
      * Format property

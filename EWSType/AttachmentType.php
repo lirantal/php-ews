@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the AttachmentType type
  */
-class EWSType_AttachmentType extends EWSType
+class AttachmentType extends EWSType
 {
     /**
      * AttachmentId property

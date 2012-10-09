@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the CalendarViewType type
  */
-class EWSType_CalendarViewType extends EWSType
+class CalendarViewType extends EWSType
 {
     /**
      * StartDate property

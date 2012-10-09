@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfItemChangesType type
  */
-class EWSType_NonEmptyArrayOfItemChangesType extends EWSType
+class NonEmptyArrayOfItemChangesType extends EWSType
 {
     /**
      * ItemChange property

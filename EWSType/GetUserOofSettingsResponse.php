@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the GetUserOofSettingsResponse type
  */
-class EWSType_GetUserOofSettingsResponse extends EWSType
+class GetUserOofSettingsResponse extends EWSType
 {
     /**
      * ResponseMessage property

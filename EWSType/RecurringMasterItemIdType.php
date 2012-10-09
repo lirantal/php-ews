@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the RecurringMasterItemIdType type
  */
-class EWSType_RecurringMasterItemIdType extends EWSType
+class RecurringMasterItemIdType extends EWSType
 {
     /**
      * OccurrenceId property

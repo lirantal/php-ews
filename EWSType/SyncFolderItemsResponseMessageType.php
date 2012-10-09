@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Definition of the SyncFolderItemsResponseMessageType type
@@ -6,10 +7,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the SyncFolderItemsResponseMessageType type
  */
-class EWSType_SyncFolderItemsResponseMessageType extends EWSType
+class SyncFolderItemsResponseMessageType extends EWSType
 {
     /**
      * SyncState property

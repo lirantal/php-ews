@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the AppendToItemFieldType type
  */
-class EWSType_AppendToItemFieldType extends EWSType
+class AppendToItemFieldType extends EWSType
 {
     /**
      * Item property

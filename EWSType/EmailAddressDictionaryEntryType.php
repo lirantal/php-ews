@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the EmailAddressDictionaryEntryType type
  */
-class EWSType_EmailAddressDictionaryEntryType extends EWSType
+class EmailAddressDictionaryEntryType extends EWSType
 {
     /**
      * _ property

@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ArrayOfMailboxData type
  */
-class EWSType_ArrayOfMailboxData extends EWSType
+class ArrayOfMailboxData extends EWSType
 {
     /**
      * MailboxData property

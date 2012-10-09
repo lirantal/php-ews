@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the BodyTypeType type
  */
-class EWSType_BodyTypeType extends EWSType
+class BodyTypeType extends EWSType
 {
     /**
      * HTML body type.

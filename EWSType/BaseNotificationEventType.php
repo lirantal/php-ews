@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the BaseNotificationEventType type
  */
-class EWSType_BaseNotificationEventType extends EWSType
+class BaseNotificationEventType extends EWSType
 {
     /**
      * Watermark property

@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the SidAndAttributesType type
  */
-class EWSType_SidAndAttributesType extends EWSType
+class SidAndAttributesType extends EWSType
 {
     /**
      * SecurityIdentifier property

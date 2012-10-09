@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the GetDelegateType type
  */
-class EWSType_GetDelegateType extends EWSType
+class GetDelegateType extends EWSType
 {
     /**
      * UserIds property

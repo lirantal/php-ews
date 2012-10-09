@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the RequestServerVersion type
  */
-class EWSType_RequestServerVersion extends EWSType
+class RequestServerVersion extends EWSType
 {
     /**
      * Version property

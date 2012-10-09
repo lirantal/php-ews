@@ -5,6 +5,7 @@
  * @package php-ews
  * @subpackage Types
  */
+namespace EWS\EWSType;
 
 /**
  * Base class for Exchange Web Service Types

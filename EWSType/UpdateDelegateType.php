@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the UpdateDelegateType type
  */
-class EWSType_UpdateDelegateType extends EWSType
+class UpdateDelegateType extends EWSType
 {
     /**
      * DelegateUsers property

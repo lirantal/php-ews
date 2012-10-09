@@ -1,42 +1,36 @@
 <?php
 /**
- * The Exists element represents a search expression that returns true if the
- * supplied property exists on an item.
+ * Definition of the ExistsType type
  *
  * @package php-ews
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
- * Definition of the ExistsType type.
+ * Definition of the ExistsType type
  */
-class EWSType_ExistsType extends EWSType
+class ExistsType extends EWSType
 {
     /**
-     * Identifies frequently referenced properties by URI.
+     * Path property
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var EWSType_BasePathToElementType
      */
-    public $FieldURI;
-
-    /**
-     * Identifies individual members of a dictionary.
-     *
-     * @var EWSType_PathToIndexedFieldType
-     */
-    public $IndexedFieldURI;
-
-    /**
-     * Identifies MAPI properties.
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
+    public $Path;
 
     /**
      * Constructor
      */
     public function __construct()
     {
+        $this->schema = array(
+            array(
+                'name' => 'Path',
+                'required' => false,
+                'type' => 'BasePathToElementType',
+            ),
+        );
     }
 }

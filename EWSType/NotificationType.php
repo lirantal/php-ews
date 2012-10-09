@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NotificationType type
  */
-class EWSType_NotificationType extends EWSType
+class NotificationType extends EWSType
 {
     /**
      * SubscriptionId property

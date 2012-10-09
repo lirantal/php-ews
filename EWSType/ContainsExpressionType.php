@@ -1,54 +1,41 @@
 <?php
 /**
- * The Contains element represents a search expression that determines whether a
- * given property contains the supplied constant string value.
+ * Definition of the ContainsExpressionType type
  *
  * @package php-ews
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
- * Definition of the ContainsExpressionType type.
+ * Definition of the ContainsExpressionType type
  */
-class EWSType_ContainsExpressionType extends EWSType
+class ContainsExpressionType extends EWSType
 {
     /**
-     * Identifies frequently referenced properties by URI.
+     * Path property
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var EWSType_BasePathToElementType
      */
-    public $FieldURI;
+    public $Path;
 
     /**
-     * Identifies individual members of a dictionary.
-     *
-     * @var EWSType_PathToIndexedFieldType
-     */
-    public $IndexedFieldURI;
-
-    /**
-     * Identifies MAPI properties.
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
-
-    /**
-     * Identifies a constant value in a restriction.
+     * Constant property
      *
      * @var EWSType_ConstantValueType
      */
     public $Constant;
 
     /**
-     * Identifies the boundaries of a search.
+     * ContainmentMode property
      *
      * @var EWSType_ContainmentModeType
      */
     public $ContainmentMode;
 
     /**
-     * Determines whether the search ignores cases and spaces.
+     * ContainmentComparison property
      *
      * @var EWSType_ContainmentComparisonType
      */
@@ -59,20 +46,27 @@ class EWSType_ContainsExpressionType extends EWSType
      */
     public function __construct()
     {
-        $this->schema[] = array(
-            'name' => 'Constant',
-            'required' => false,
-            'type' => 'ConstantValueType',
-        );
-        $this->schema[] = array(
-            'name' => 'ContainmentMode',
-            'required' => false,
-            'type' => 'ContainmentModeType',
-        );
-        $this->schema[] = array(
-            'name' => 'ContainmentComparison',
-            'required' => false,
-            'type' => 'ContainmentComparisonType',
+        $this->schema = array(
+            array(
+                'name' => 'Path',
+                'required' => false,
+                'type' => 'BasePathToElementType',
+            ),
+            array(
+                'name' => 'Constant',
+                'required' => false,
+                'type' => 'ConstantValueType',
+            ),
+            array(
+                'name' => 'ContainmentMode',
+                'required' => false,
+                'type' => 'ContainmentModeType',
+            ),
+            array(
+                'name' => 'ContainmentComparison',
+                'required' => false,
+                'type' => 'ContainmentComparisonType',
+            ),
         );
     }
 }

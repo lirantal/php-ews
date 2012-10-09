@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the PathToExceptionFieldType type
  */
-class EWSType_PathToExceptionFieldType extends EWSType
+class PathToExceptionFieldType extends EWSType
 {
     /**
      * FieldURI property

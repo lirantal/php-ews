@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the UpdateItemResponseMessageType type
  */
-class EWSType_UpdateItemResponseMessageType extends EWSType
+class UpdateItemResponseMessageType extends EWSType
 {
     /**
      * ConflictResults property

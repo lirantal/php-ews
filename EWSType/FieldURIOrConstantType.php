@@ -1,40 +1,27 @@
 <?php
 /**
- * The FieldURIOrConstant element represents either a property or a constant
- * value to be used when comparing with another property.
+ * Definition of the FieldURIOrConstantType type
  *
  * @package php-ews
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
- * Definition of the FieldURIOrConstantType type.
+ * Definition of the FieldURIOrConstantType type
  */
-class EWSType_FieldURIOrConstantType extends EWSType
+class FieldURIOrConstantType extends EWSType
 {
     /**
-     * Identifies frequently referenced properties by URI.
+     * Path property
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var EWSType_BasePathToElementType
      */
-    public $FieldURI;
+    public $Path;
 
     /**
-     * Identifies individual members of a dictionary.
-     *
-     * @var EWSType_PathToIndexedFieldType
-     */
-    public $IndexedFieldURI;
-
-    /**
-     * Identifies MAPI properties.
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
-
-    /**
-     * Identifies a constant value in a restriction.
+     * Constant property
      *
      * @var EWSType_ConstantValueType
      */

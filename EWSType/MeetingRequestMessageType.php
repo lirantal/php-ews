@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the MeetingRequestMessageType type
  */
-class EWSType_MeetingRequestMessageType extends EWSType
+class MeetingRequestMessageType extends EWSType
 {
     /**
      * MeetingRequestType property

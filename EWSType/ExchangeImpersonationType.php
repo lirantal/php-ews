@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the ExchangeImpersonationType type
  */
-class EWSType_ExchangeImpersonationType extends EWSType
+class ExchangeImpersonationType extends EWSType
 {
     /**
      * ConnectingSID property

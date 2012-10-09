@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the SerializableTimeZone type
  */
-class EWSType_SerializableTimeZone extends EWSType
+class SerializableTimeZone extends EWSType
 {
     /**
      * Bias property

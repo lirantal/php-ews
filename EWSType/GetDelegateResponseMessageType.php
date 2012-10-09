@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the GetDelegateResponseMessageType type
  */
-class EWSType_GetDelegateResponseMessageType extends EWSType
+class GetDelegateResponseMessageType extends EWSType
 {
     /**
      * DeliverMeetingRequests property

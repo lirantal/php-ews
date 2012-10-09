@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the RootItemIdType type
  */
-class EWSType_RootItemIdType extends EWSType
+class RootItemIdType extends EWSType
 {
     /**
      * RootItemId property

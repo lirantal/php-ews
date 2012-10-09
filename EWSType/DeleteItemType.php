@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the DeleteItemType type
  */
-class EWSType_DeleteItemType extends EWSType
+class DeleteItemType extends EWSType
 {
     /**
      * ItemIds property

@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfFolderChangeDescriptionsType type
  */
-class EWSType_NonEmptyArrayOfFolderChangeDescriptionsType extends EWSType
+class NonEmptyArrayOfFolderChangeDescriptionsType extends EWSType
 {
     /**
      * AppendToFolderField property

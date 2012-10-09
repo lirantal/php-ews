@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the UserIdType type
  */
-class EWSType_UserIdType extends EWSType
+class UserIdType extends EWSType
 {
     /**
      * SID property

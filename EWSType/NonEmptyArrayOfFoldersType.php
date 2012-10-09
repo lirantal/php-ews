@@ -6,10 +6,12 @@
  * @subpackage Types
  */
 
+namespace EWS\EWSType;
+
 /**
  * Definition of the NonEmptyArrayOfFoldersType type
  */
-class EWSType_NonEmptyArrayOfFoldersType extends EWSType
+class NonEmptyArrayOfFoldersType extends EWSType
 {
     /**
      * Folder property
